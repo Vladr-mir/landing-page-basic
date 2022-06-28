@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  margin: 10px;
+  font-family: Roboto, sans-serif, -apple-system, Oxygen, 'Open Sans', 'Helvetica Neue';
+  text-decoration: none;
+}
+
+p {
+  font-size: 48px;
+  font-family: Roboto, sans-serif, -apple-system, Oxygen, 'Open Sans', 'Helvetica Neue';
+
+}
+
+.dark {
+  color: white;
+  background-color: #1F2937;
+}
+
+.dark .secondary {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.header {
+  height: 50px;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+
+  display: flex;
+    
+  /*justify-content: center;*/
+}
+
+.left-header {
+  margin-left: auto;
+  padding: 25px;
+}
+
+.hero {
+  display: flex;
+
+}
