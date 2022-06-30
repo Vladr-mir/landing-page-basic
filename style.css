@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: center;
 }
 
 button {
@@ -127,7 +127,7 @@ a {
 }
 
 .information-element {
-  width: 200px;
+  width: 300px;
   flex: 0;
 }
 
@@ -138,6 +138,37 @@ a {
   border: 5px solid #3882F6;
   border-radius: 10px;
 }
+
+/*Quote styles*/
+.quote {
+  background-color: #E5E7EB;
+  margin: 50px 0px;
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  width: 750px;
+  color: #1F2937;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 10;
+  font-size: 36px;
+}
+
+.quote-name {
+  color: #1F2937;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+/*Sign up styles --------------------*/
+
 
 /*Footer styles ---------------------*/
 footer {
