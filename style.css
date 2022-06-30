@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 button {
@@ -168,7 +167,40 @@ a {
 }
 
 /*Sign up styles --------------------*/
+.sign-up {
+  background-color: #3882F6;
+  margin: 70px;
+  padding: 20px 20px;
+  /*height: 150px;*/
+  width: 1000px;
+  border-radius: 10px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.sign-up button {
+  border: 2px solid #F9FAF8;
+}
+
+.sign-up .text {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sign-up .title {
+  color: #F9FAF8;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.sign-up .secondary {
+  margin-top: 0px;
+  color: #e1e1e1;
+}
 
 /*Footer styles ---------------------*/
 footer {
