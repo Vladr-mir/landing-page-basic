@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 button {
@@ -19,7 +20,13 @@ button {
   font-family: Roboto, sans-serif;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #382891;
+  color: white;
 }
 
 a {
@@ -33,13 +40,18 @@ a {
   background-color: #1F2937;
 }
 
+.light {
+  background-color: white;
+  color: #1F2937;
+}
+
 .secondary {
   font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
 
 .dark .secondary {
   color: #E5E7EB;
-  font-size: 18px;
 }
 
 .title {
@@ -92,7 +104,42 @@ a {
   align-self: center;
 }
 
-/*Footer styles*/
+/*Information styles ------------------*/
+.information {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-title {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.information-content {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.information-element {
+  width: 200px;
+  flex: 0;
+}
+
+.information-element img{
+  height: 200px;
+  width: 200px;
+  filter: brightness(85%);
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+}
+
+/*Footer styles ---------------------*/
 footer {
   height: 35px;
   padding: 20px;
